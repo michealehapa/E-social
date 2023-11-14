@@ -758,10 +758,16 @@ main .container .right {
    .left .btn {
     display: none;
    }
-
+/* 
    .customize-theme .card {
     width: 80vw;
-   }
+   } */
+
+   .customize-theme .card {
+    width: 80%;
+   } 
+
+   
 }
 
 
@@ -807,8 +813,12 @@ main .container .right {
     display: none;
    }
 
-   .customize-theme .card {
+   /* .customize-theme .card {
     width: 92vw;
+   } */
+
+   .customize-theme .card {
+    width: 96%;
    }
 }
 

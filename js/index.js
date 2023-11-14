@@ -17,6 +17,7 @@ const Bg1 = document.querySelector('.bg-1');
 const Bg2 = document.querySelector('.bg-2');
 const Bg3 = document.querySelector('.bg-3');
 
+
 //remove active class for all menu
 const changeActiveItem = () => {
     menuItems.forEach(item => {
@@ -24,32 +25,11 @@ const changeActiveItem = () => {
     })
 }
 
-// Add click event listener to the document body
-document.body.addEventListener('click', (event) => {
-    // Check if the clicked element is not part of the notification popup
-    if (!notificationPopup.contains(event.target)) {
-        // Hide the notification popup
-        notificationPopup.style.display = 'none';
-    }
-});
-
-
 
 menuItems.forEach(item => {
     item.addEventListener('click', () => {
         changeActiveItem();
         item.classList.add('active');
-
-
-
-
-
-
-
-
-
-
-
 
 
 
